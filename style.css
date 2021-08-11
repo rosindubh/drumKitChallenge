@@ -11,15 +11,23 @@ p {
 }
 
 .keys {
+    padding-top: 300px;
     /*background-color: blue;*/
     display: flex;
-    justify-content: space-around
+    justify-content: space-evenly;
+    flex-wrap:wrap;
 }
 
+
+
 .key {
-    background-color: blueviolet;
+    /*background-color: blueviolet;*/
+    display: flex;
+    justify-content: center;
+    padding: 20px;
 }
 
 .name {
-    background-color: chartreuse;
+    /*background-color: chartreuse;*/
+    padding-bottom: 20px;
 }
