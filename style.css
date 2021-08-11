@@ -9,3 +9,17 @@
 p {
     font-size: 30px;
 }
+
+.keys {
+    /*background-color: blue;*/
+    display: flex;
+    justify-content: space-around
+}
+
+.key {
+    background-color: blueviolet;
+}
+
+.name {
+    background-color: chartreuse;
+}
