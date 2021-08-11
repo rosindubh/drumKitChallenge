@@ -24,4 +24,7 @@ document.addEventListener('keydown', function(e) {
     else if (e.keyCode == 75) {
       document.getElementById('tink').play();
     }
+    else if (e.keyCode == 76) {
+      document.getElementById('tom').play();
+    }
   });
