@@ -5,17 +5,20 @@
     margin: 0px;
     padding: 0px;
 }
-
+body {
+    background-image: url(./images/John-Henry-Bonham.png);
+}
 p {
     font-size: 30px;
 }
 
 .keys {
-    padding-top: 300px;
+    padding-top: 0px;
     /*background-color: blue;*/
     display: flex;
     justify-content: space-evenly;
     flex-wrap:wrap;
+    color: white;
 }
 
 
